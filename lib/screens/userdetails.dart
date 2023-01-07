@@ -53,7 +53,7 @@ class _userdetailsState extends State<userdetails> {
                 padding: EdgeInsets.only(left: 5, right: 5),
                 child: Card(
                   child: Padding(
-                    padding: const EdgeInsets.all(20),
+                    padding: const EdgeInsets.all(15),
                     child: Column(
                       children: [
                         Row(
@@ -77,7 +77,7 @@ class _userdetailsState extends State<userdetails> {
                 padding: EdgeInsets.only(left: 5, right: 5),
                 child: Card(
                   child: Padding(
-                    padding: const EdgeInsets.all(20),
+                    padding: const EdgeInsets.all(15),
                     child: Column(
                       children: [
                         Row(
@@ -193,7 +193,7 @@ class _userdetailsState extends State<userdetails> {
                         itemBuilder: (BuildContext context, int index) {
                           return Card(
                             child: Container(
-                                padding: EdgeInsets.all(20),
+                                padding: EdgeInsets.all(10),
                                 child: Row(
                                   mainAxisAlignment:
                                       MainAxisAlignment.spaceBetween,
@@ -211,7 +211,7 @@ class _userdetailsState extends State<userdetails> {
                                           style: TextStyles.mb14,
                                         ),
                                         SizedBox(
-                                          height: 10,
+                                          height: 5,
                                         ),
                                         data[index]['description'] == ""
                                             ? Text(
